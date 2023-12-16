@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY</title>
+    <link rel="stylesheet" href="task2.css"></a>
+</head>
+<body>
+    <p align="center"><b><font size="+7">SKILL ++ SURVEY FORM .</font></b></p>
+    <br>
+    <p align ="center"><b><font size="+4"><i>Thank you for taking the time to help us improve the platform .</i></font></b></p>
+    <div class="box" >
+        <div style="text-align: center;">
+        <h1>What's your name ?</h1>
+            <input placeholder="Enter Your Name !" class="data">
+        <h1>What's Your E-Mail Address ?<h1>
+            <input placeholder="Enter Your E-Mail Address !" class="data">
+        <h1>What's Your Age ?</h1>
+            <input placeholder="Entef Your Age !" class="data">
+        <h1>Which option best describe your current role ?</h1>
+
+            <select name="profession" class="data">
+                <option value="Student">Student</option>
+                <option value="Free Lancer">Free Lancer</option>
+                <option value="Job Seeker">Job Seeker</option>
+            </select>
+        <h1>Would you recommend our company to a friend ?</h1>
+            <input type="radio" name="testing">
+            <label class="circle">For Sure</label>
+            <br>
+            <input type="radio" name="testing">
+            <label class="circle">Maybe</label>
+            <br>
+            <input type="radio" name="testing">
+            <label class="circle">No !</label>
+            <!--gave them "testing" name so only one option can be selected at a time-->
+        <h1>What would you like to see improved?<br>(Check all that apply)</h1>
+            <input type="checkbox">
+            <label class="circle">Front-End Projects</label>
+            <br>
+            <input type="checkbox">
+            <label class="circle">Back-End Projects</label>
+            <br>
+            <input type="checkbox">
+            <label class="circle">  Challenges  </label>
+            <br>
+        <h1>Any Comments or Suggestions ?</h1>
+            <textarea type="placeholder" placeholder="Enter Your Comments Here !" id="textarea"></textarea><br><br><br>
+            <button type="button">Submit</button>
+        </div>
+    </div>
+</body> 
+</html>
